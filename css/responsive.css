@@ -1,0 +1,255 @@
+@media screen and (min-width: 50px) and (max-width: 500px) {
+  .sonar-emitter {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    background: rgba(228, 148, 151, 0.88);
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .sonar-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    background-color: gold;
+    opacity: 0;
+    z-index: -1;
+    pointer-events: none;
+  }
+  .text {
+    font-size: 24px;
+    margin: 0 auto;
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+  }
+
+  .img-container::before {
+    display: none;
+  }
+
+  .date-detail {
+    color: rgb(153, 153, 153);
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32.4px;
+    padding-bottom: 36px;
+    text-align: left;
+  }
+  .big-number {
+    position: absolute;
+    top: 6px;
+    font-size: 50px;
+    color: rgba(234, 234, 234, 0.7);
+    z-index: 1;
+    text-align: center;
+  }
+  .big-number2 {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    font-size: 60px;
+    color: rgba(234, 234, 234, 0.7);
+    z-index: 1;
+  }
+  .flex-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .center-img {
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.56), #110c00),
+      url(../img/13.jpg);
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+    color: #fff;
+  }
+  .display-3-jumbotron {
+    font-size: 14px;
+    color: #ededed;
+    padding-bottom: 30px;
+    font-style: italic;
+  }
+  .flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .rsvp-body {
+    background-color: #ffc107;
+    padding: 5px 3px;
+    margin: 0px auto;
+    overflow: hidden;
+  }
+  .rsvp-text {
+    background: #fff;
+    padding: 40px 14px 1px;
+    text-align: center;
+    position: relative;
+  }
+  .rsvp-lead-text {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 0 2em;
+    color: #6b6969;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .content-jumbotron {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .couple-date {
+    font-weight: lighter;
+    font-size: 43px;
+    font-family: "Great Vibes", cursive;
+    position: relative;
+    padding: 20px 0 10px;
+    color: #000;
+  }
+  .bride-details {
+    text-align: center;
+    margin-right: 0em;
+  }
+  .groom-details {
+    text-align: center;
+  }
+  .display-3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .clock {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid #fda600cf;
+  }
+  .count-down-tick {
+    font-size: 40px;
+    color: #000;
+    padding-top: 10px;
+  }
+  .count-down-text {
+    color: #fda600cf;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .col-md-4-flex-remove {
+    flex: none;
+    max-width: none;
+  }
+  .img-container::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 43px;
+    width: 70px;
+    height: 3px;
+    background: #fbce02;
+    z-index: 99;
+  }
+  .txt-img {
+    font-size: 32px;
+    text-align: center;
+    font-family: "Prata", serif;
+  }
+
+  .display-3-jumbotron {
+    font-size: 20px;
+    color: #ededed;
+    padding-bottom: 30px;
+    font-style: italic;
+  }
+  .couple-details {
+    margin-top: 0;
+  }
+  .couples-detail-margin {
+    margin-top: 20px;
+  }
+  .rsvp-lead-text {
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 0 2em;
+    color: #6b6969;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+  }
+  .rsvp-body {
+    background-color: #ffc107;
+    padding: 20px 20px;
+    margin: 0 40px;
+    overflow: hidden;
+  }
+  .rsvp-text {
+    background: #fff;
+    padding: 60px 40px 58px;
+    text-align: center;
+    position: relative;
+  }
+  .clock {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid #fda600cf;
+  }
+  .count-down-tick {
+    font-size: 55px;
+    color: #000;
+    padding-top: 0px;
+  }
+  .count-down-text {
+    color: #fda600cf;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 984px) {
+  .col-md-4-flex-remove {
+    flex: none;
+    max-width: none;
+  }
+  .couple-details {
+    margin-top: 0;
+  }
+  .couples-detail-margin {
+    margin-top: 20px;
+  }
+  .rsvp-body {
+    background-color: #ffc107;
+    padding: 20px 10px;
+    margin: 0 40px;
+    overflow: hidden;
+  }
+  .rsvp-text {
+    background: #fff;
+    padding: 40px 20px 20px;
+    text-align: center;
+    position: relative;
+  }
+  .img-container::before {
+    position: absolute;
+    content: "";
+    left: 81%;
+    top: 43px;
+    width: 70px;
+    height: 3px;
+    background: #fbce02;
+    z-index: 99;
+    right: 0;
+  }
+}
